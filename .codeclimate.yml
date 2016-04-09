@@ -1,0 +1,18 @@
+engines:
+  bundler-audit:
+    enabled: false
+  csslint:
+    enabled: false
+  coffeelint:
+    enabled: true
+  eslint:
+    enabled: true
+  fixme:
+    enabled: true
+  scss-lint:
+    enabled: false
+ratings:
+  paths:
+  - "**.coffee"
+  - "gulp-tasks/**/*.js"
+  - "gulpfile.js"

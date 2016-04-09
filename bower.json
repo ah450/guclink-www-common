@@ -1,0 +1,25 @@
+{
+  "name": "guclink-www-common",
+  "description": "Common angular components for guclink web apps",
+  "main": "dist/guclink-common-angular-module.js",
+  "authors": [
+    "Ahmed H. Ismail"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ah450/guclink-www-common",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "spec",
+    "karma.conf.js",
+    "gulp-tasks",
+    "gulpfile.js"
+  ],
+  "devDependencies": {
+    "angular": "^1.5.3",
+    "angular-mocks": "^1.5.3"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "guclink-www-common",
   "description": "Common angular components for guclink web apps",
-  "main": "dist/guclink-common-angular-module.js",
+  "main": "./dist/guclink-common-angular-module.js",
   "authors": [
     "Ahmed H. Ismail"
   ],
@@ -20,6 +20,7 @@
   ],
   "devDependencies": {
     "angular": "^1.5.3",
-    "angular-mocks": "^1.5.3"
+    "angular-mocks": "^1.5.3",
+    "guclink-www-shims": "ah450/guclink-www-shims"
   }
 }
